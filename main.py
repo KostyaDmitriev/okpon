@@ -1,9 +1,7 @@
 from aiogram import Bot, Dispatcher, executor, types
-from aiogram.types import ReplyKeyboardRemove, \
-    ReplyKeyboardMarkup, KeyboardButton, \
-    InlineKeyboardMarkup, InlineKeyboardButton, message
+from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+
 # from aiogram.types.message.Message import sendMessage
-import asyncio
 
 
 schedule = {
@@ -28,7 +26,7 @@ schedule = {
     }
 }
 
-API_TOKEN = '5849805697:AAEmkzOGqfn_prZP_Pz74_Hn0E4CG7VHIfw'
+API_TOKEN = '5849805697:AAENDBPqfJZ5TSVuksQgWYi8lo-BoEB4sX8'
 
 # Initialize bot and dispatcher
 bot = Bot(token=API_TOKEN)
@@ -256,7 +254,6 @@ async def process_calction(callback_query: types.CallbackQuery):
 async def process_calction(callback_query: types.CallbackQuery):
     await bot.answer_callback_query(callback_query.id)
     await bot.send_message(callback_query.from_user.id, 'Что записаться на тренеровки по карате пожалуйста обратитесь по данному номеру: +7 916 400 4288 или @dojo_sk1')
-
 
 @dp.message_handler()
 async def send_idk(message: types.Message):
