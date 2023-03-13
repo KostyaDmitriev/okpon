@@ -29,7 +29,8 @@ schedule = {
 API_TOKEN = '5849805697:AAENDBPqfJZ5TSVuksQgWYi8lo-BoEB4sX8'
 
 # Initialize bot and dispatcher
-bot = Bot(token=API_TOKEN)
+PROXY_URL = "http://proxy.server:3128"
+bot = Bot(token=API_TOKEN, proxy=PROXY_URL)
 dp = Dispatcher(bot)
 start_message = '''Привет это телеграмм бот Dojo S.K.1
 В этом боте ты можешь записаться на тренировки по карате
