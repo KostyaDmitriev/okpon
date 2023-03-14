@@ -214,47 +214,47 @@ async def send_section(message):
 @dp.callback_query_handler(lambda c: c.data == 'butd241s')
 async def process_calction(callback_query: types.CallbackQuery):
     await bot.answer_callback_query(callback_query.id)
-    await bot.send_message(callback_query.from_user.id, 'Что записаться на тренеровки по карате пожалуйста обратитесь по данному номеру: +7 916 400 4288 или @dojo_sk1')
+    await bot.send_message(callback_query.from_user.id, 'Что записаться на тренировки по карате пожалуйста обратитесь по данному номеру: +7 916 400 4288 или @dojo_sk1')
 
 @dp.callback_query_handler(lambda c: c.data == 'butd242s')
 async def process_calction(callback_query: types.CallbackQuery):
     await bot.answer_callback_query(callback_query.id)
-    await bot.send_message(callback_query.from_user.id, 'Что записаться на тренеровки по карате пожалуйста обратитесь по данному номеру: +7 916 400 4288 или @dojo_sk1')
+    await bot.send_message(callback_query.from_user.id, 'Что записаться на тренировки по карате пожалуйста обратитесь по данному номеру: +7 916 400 4288 или @dojo_sk1')
 
 @dp.callback_query_handler(lambda c: c.data == 'butd1351s')
 async def process_calction(callback_query: types.CallbackQuery):
     await bot.answer_callback_query(callback_query.id)
-    await bot.send_message(callback_query.from_user.id, 'Что записаться на тренеровки по карате пожалуйста обратитесь по данному номеру: +7 916 400 4288 или @dojo_sk1')
+    await bot.send_message(callback_query.from_user.id, 'Что записаться на тренировки по карате пожалуйста обратитесь по данному номеру: +7 916 400 4288 или @dojo_sk1')
 
 @dp.callback_query_handler(lambda c: c.data == 'butd61s')
 async def process_calction(callback_query: types.CallbackQuery):
     await bot.answer_callback_query(callback_query.id)
-    await bot.send_message(callback_query.from_user.id, 'Что записаться на тренеровки по карате пожалуйста обратитесь по данному номеру: +7 916 400 4288 или @dojo_sk1')
+    await bot.send_message(callback_query.from_user.id, 'Что записаться на тренировки по карате пожалуйста обратитесь по данному номеру: +7 916 400 4288 или @dojo_sk1')
 
 @dp.callback_query_handler(lambda c: c.data == 'butd62s')
 async def process_calction(callback_query: types.CallbackQuery):
     await bot.answer_callback_query(callback_query.id)
-    await bot.send_message(callback_query.from_user.id, 'Что записаться на тренеровки по карате пожалуйста обратитесь по данному номеру: +7 916 400 4288 или @dojo_sk1')
+    await bot.send_message(callback_query.from_user.id, 'Что записаться на тренировки по карате пожалуйста обратитесь по данному номеру: +7 916 400 4288 или @dojo_sk1')
 
 @dp.callback_query_handler(lambda c: c.data == 'buts12')
 async def process_calction(callback_query: types.CallbackQuery):
     await bot.answer_callback_query(callback_query.id)
-    await bot.send_message(callback_query.from_user.id, 'Что записаться на тренеровки по карате пожалуйста обратитесь по данному номеру: +7 916 400 4288 или @dojo_sk1')
+    await bot.send_message(callback_query.from_user.id, 'Что записаться на тренировки по карате пожалуйста обратитесь по данному номеру: +7 916 400 4288 или @dojo_sk1')
 
 @dp.callback_query_handler(lambda c: c.data == 'buts14')
 async def process_calction(callback_query: types.CallbackQuery):
     await bot.answer_callback_query(callback_query.id)
-    await bot.send_message(callback_query.from_user.id, 'Что записаться на тренеровки по карате пожалуйста обратитесь по данному номеру: +7 916 400 4288 или @dojo_sk1')
+    await bot.send_message(callback_query.from_user.id, 'Что записаться на тренировки по карате пожалуйста обратитесь по данному номеру: +7 916 400 4288 или @dojo_sk1')
 
 @dp.callback_query_handler(lambda c: c.data == 'buts3time')
 async def process_calction(callback_query: types.CallbackQuery):
     await bot.answer_callback_query(callback_query.id)
-    await bot.send_message(callback_query.from_user.id, 'Что записаться на тренеровки по карате пожалуйста обратитесь по данному номеру: +7 916 400 4288 или @dojo_sk1')
+    await bot.send_message(callback_query.from_user.id, 'Что записаться на тренировки по карате пожалуйста обратитесь по данному номеру: +7 916 400 4288 или @dojo_sk1')
 
 @dp.callback_query_handler(lambda c: c.data == 'buts1time1')
 async def process_calction(callback_query: types.CallbackQuery):
     await bot.answer_callback_query(callback_query.id)
-    await bot.send_message(callback_query.from_user.id, 'Что записаться на тренеровки по карате пожалуйста обратитесь по данному номеру: +7 916 400 4288 или @dojo_sk1')
+    await bot.send_message(callback_query.from_user.id, 'Что записаться на тренировки по карате пожалуйста обратитесь по данному номеру: +7 916 400 4288 или @dojo_sk1')
 
 @dp.message_handler()
 async def send_idk(message: types.Message):
