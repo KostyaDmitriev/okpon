@@ -1,6 +1,6 @@
 from aiogram import Bot, Dispatcher, executor, types
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-
+from settings import API_TOKEN
 # from aiogram.types.message.Message import sendMessage
 
 
@@ -26,7 +26,7 @@ schedule = {
     }
 }
 
-API_TOKEN = '5849805697:AAENDBPqfJZ5TSVuksQgWYi8lo-BoEB4sX8'
+
 
 # Initialize bot and dispatcher
 PROXY_URL = "http://proxy.server:3128"
